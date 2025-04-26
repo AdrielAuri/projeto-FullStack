@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <img src="/images/logo.dianaLol.jpg" alt="logo">
+        <h2>Cadastro do Usuário</h2>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button type="button" onclick="cadastrarUsuario()">Cadastrar</button>
+        </form>
+
+        <a href="/usuarios.html" class="link-usuarios">Ver usuários cadastrados</a>
+
+        <div id="mensagem" class="mensagem oculta" onclick="fecharMensagem()"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
